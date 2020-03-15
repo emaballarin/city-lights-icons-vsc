@@ -1,13 +1,13 @@
 {
-  "name": "city-lights-icon-vsc",
-  "displayName": "City Lights Icon package",
-  "description": "The City Lights icon pack is a gorgeous set of icons which you can toggle by color or grayscale to enhance your focus",
+  "name": "city-lights-icon-improved",
+  "displayName": "City Lights Icon package. Improved.",
+  "description": "The City Lights icon pack is a gorgeous set of icons which you can toggle by color or grayscale to enhance your focus. Improved.",
   "categories": [
     "Themes"
   ],
   "version": "1.1.3",
-  "publisher": "Yummygum",
-  "repository": "https://github.com/Yummygum/city-lights-icons-vsc",
+  "publisher": "emaballarin",
+  "repository": "https://github.com/emaballarin/city-lights-icons-vsc",
   "engines": {
     "vscode": "^1.5.0"
   },
