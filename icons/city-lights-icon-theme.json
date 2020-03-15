@@ -406,6 +406,12 @@
     "_zip_light": {
       "iconPath": "./svg/zip-icon-active.svg"
     },
+    "_toml_light": {
+      "iconPath": "./svg/toml-icon-active.svg"
+    },
+    "_toml": {
+      "iconPath": "./svg/toml-icon.svg"
+    },
     "_svelte": {
       "iconPath": "./svg/svelte-icon.svg"
     },
@@ -512,6 +518,7 @@
     "xlsx": "_excel",
     "php": "_php",
     "travis.yml": "_travis",
+    "toml": "_toml",
     "svelte": "_svelte",
     "graphql": "_graphql",
     "mint": "_mint",
