@@ -10,7 +10,7 @@
   "publisher": "emaballarin",
   "repository": "https://github.com/emaballarin/city-lights-icons-vsc",
   "engines": {
-    "vscode": "^1.5.0"
+    "vscode": "^1.57.0"
   },
   "icon": "icon.png",
   "activationEvents": [
@@ -54,16 +54,16 @@
     "build": "npm run compile",
     "compile": "tsc -p ./",
     "clean": "rimraf ./out",
-    "postinstall": "node ./node_modules/vscode/bin/install",
     "lint": "tslint -c tslint.json ./src/**/*.ts"
   },
   "devDependencies": {
-    "@types/node": "^10.7.1",
+    "@types/node": "^10.17.60",
+    "@types/vscode": "^1.57.0",
     "rimraf": "^2.6.2",
     "ts-node": "^7.0.1",
     "tslint": "^5.11.0",
-    "typescript": "^3.0.1",
-    "vscode": "^1.1.21"
+    "typescript": "^4.3.5",
+    "vscode-test": "^1.5.2"
   },
   "dependencies": {
     "bluebird": "^3.5.1",
