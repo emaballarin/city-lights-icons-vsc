@@ -6,7 +6,7 @@ import { showConfirmToReloadMessage } from '../messages/reload';
 
 /** Get list of configuration entries of package.json */
 export const getExtensionConfiguration = (): { [config: string]: any } => {
-  return vscode.extensions.getExtension('Yummygum.city-lights-icon-vsc').packageJSON.contributes.configuration.properties;
+  return vscode.extensions.getExtension('emaballarin.city-lights-icon-vsc').packageJSON.contributes.configuration.properties;
 };
 
 /** Get configuration of vs code */
