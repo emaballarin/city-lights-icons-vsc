@@ -46,5 +46,5 @@ const updateExtensionVersionInMemento = async (state: vscode.Memento) => {
 
 /** Get the current version of the extension */
 const getCurrentExtensionVersion = (): string => {
-    return vscode.extensions.getExtension('Yummygum.city-lights-icon-vsc').packageJSON.version;
+    return vscode.extensions.getExtension('emaballarin.city-lights-icon-vsc').packageJSON.version;
 };
